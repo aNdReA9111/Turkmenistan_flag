@@ -1,2 +1,2 @@
-# Turkmenistan_flag
-This is a project created for a challenge of the course " 88566 - Tecnologie Web" at the University of Bologna
+<h1>Turkmenistan flag 🇹🇲🇹🇲</h1>
+<p>In questo progetto viene ricreata la bandiera del Turkmenistan utilizzando soltanto html e css</p>
