@@ -1,0 +1,58 @@
+:root{
+    --green: #00843d;
+    --red: #d22530;
+    --yellow: #ffc72b;
+}
+
+div{
+    z-index: 1;
+}
+
+.colorGreen{
+    background-color: var(--green);
+}
+
+.colorRed{
+    background-color: var(--red);
+}
+
+.left{
+    top: 0vh;
+    left: 0vh;
+    z-index: 0;
+    position: absolute;
+    height: 92vh;
+    width: 15vh;
+}
+
+.central{ 
+    z-index: 0;
+    position: absolute;
+    height: 92vh;
+    width: 25vh;
+    left:15vh;
+    top: 0vh;
+}
+
+.right{
+    z-index: 0;
+    position: absolute;
+    height: 92vh;
+    width: 110vh;
+    left: 40vh;
+    top: 0vh;
+}
+
+  .mezzaluna {
+    z-index: 1;
+    position: absolute;
+    top:7.2vh;
+    left: 7vh;
+	width:22vh;
+	height:22vh;
+	border-radius:40vh;
+	box-shadow:1vh 3vh 0 0 white;
+	transform:rotate(320deg);
+}
+  
+

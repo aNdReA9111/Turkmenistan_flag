@@ -1,0 +1,48 @@
+.star {
+    width: 4.5vh;
+    height: 4.5vh;
+
+    background-color: white;
+    position: absolute;
+    
+    transform: rotate(43deg);
+    clip-path: polygon(
+        50% 0%,
+        61% 35%,
+        98% 35%,
+        68% 57%,
+        79% 91%,
+        50% 70%,
+        21% 91%,
+        32% 57%,
+        2% 35%,
+        39% 35%
+    );
+    z-index: 3;
+}
+
+#star1{
+    top: 8vh;
+    left:12vh;
+}
+
+#star2{
+    top: 17vh;
+    left:7vh;
+}
+
+#star3{
+    top: 14vh;
+    left:12vh;
+}
+
+#star4{
+    left: 12vh;
+    top: 20vh;
+}
+
+#star5{
+    top: 11vh;
+    left:17vh;
+}
+  

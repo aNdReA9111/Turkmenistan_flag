@@ -1,0 +1,332 @@
+img{
+    position: absolute;
+    z-index: 1;
+}
+
+.img1{
+    width: 14.5 vh;
+    height: 15vh;
+    top: 0.6vh;
+    left: 15.5vh;
+}
+
+.img2{
+    width: 14 vh;
+    height: 14vh;
+    top: 1.3vh;
+    left: 16.8vh;
+}
+
+.img3{
+    width: 14 vh;
+    height: 14vh;
+    top: 1.5vh;
+    left: 15.8vh;
+}
+
+.img4{
+    width: 14 vh;
+    height: 14vh;
+    top: 1.5vh;
+    left: 16.8vh;
+}
+
+.img5_1{
+    width: 14 vh;
+    height: 14vh;
+    top: 1.5vh;
+    left: 15.3vh;
+}
+
+.img5_2{
+    width: 12 vh;
+    height: 12vh;
+    top: 12vh;
+    left: 15.7vh;
+    
+}
+
+.laterale1{
+    position: absolute;
+    height: 1vh;
+    width: 6vh;
+    background-color: var(--yellow);
+    transform:rotate(-45deg);
+    z-index: 2;
+}
+
+.pos_laterale1{
+    left: 13vh;
+    position: absolute;
+    top: 8.11vh;
+}
+
+.pos_laterale2{
+    left: 13vh;
+    position: absolute;
+    top: 20.76vh;
+}
+
+.pos_laterale3{
+    left: 13vh;
+    position: absolute;
+    top: 34.4vh;
+}
+
+.pos_laterale4{
+    left: 13vh;
+    position: absolute;
+    top: 46vh;
+}
+
+.pos_laterale5{
+    left: 13vh;
+    position: absolute;
+    top: 61.6vh;
+}
+
+.tr1{   /*Triangolini*/
+    position: absolute;
+    clip-path: polygon(3vh 0vh, 4vh 0vh, 3.5vh 0.5vh);
+    height: 17vh;
+    width: 15vh;
+    z-index: 1;
+    top: 0vh;
+    left: 15vh;
+    background-color: var(--yellow);
+}
+
+.angolo1-1{
+    position: absolute;
+    clip-path: polygon(0vh 0vh, 0vh 2.3vh, 0.5vh 1.5vh, 0.5vh 0.5vh, 1.5vh 0.5vh, 2.3vh 0vh);
+    height: 17vh;
+    width: 15vh;
+    z-index: 1;
+    top: 0vh;
+    left: 15vh;
+    background-color: var(--yellow);
+}
+
+
+.angolo1-2{
+    position: absolute;
+    clip-path: polygon(0vh 0vh, 0vh 2.3vh, 0.5vh 1.5vh, 0.5vh 0.5vh, 1.5vh 0.5vh, 2.3vh 0vh);
+    height: 17vh;
+    width: 15vh;
+    z-index: 3;
+    top: 0vh;
+    left: 25vh;
+    background-color: var(--yellow);
+    transform: scaleX(-1) scaleY(-1);
+}
+
+.angolo1-3{
+    position: absolute;
+    clip-path: polygon(0vh 0vh, 0vh 2.3vh, 0.5vh 1.5vh, 0.5vh 0.5vh, 1.5vh 0.5vh, 2.3vh 0vh);
+    height: 17vh;
+    width: 15vh;
+    z-index: 3;
+    top: 0vh;
+    left: 25vh;
+    background-color: var(--yellow);
+    transform: scaleX(-1);
+}
+
+.angolo1-4{
+    position: absolute;
+    clip-path: polygon(0vh 0vh, 0vh 2.3vh, 0.5vh 1.5vh, 0.5vh 0.5vh, 1.5vh 0.5vh, 2.3vh 0vh);
+    height: 17vh;
+    width: 15vh;
+    z-index: 3;
+    top: 0vh;
+    left: 15vh;
+    background-color: var(--yellow);
+    transform: scaleY(-1);
+}
+
+.angolo2-11{
+    position: absolute;
+    clip-path: polygon(   
+        0 6.3vh, 
+        1.8vh 4.5vh,
+        1.1vh 4vh, 
+        2.3vh 2.9vh, 
+        1.5vh 2.3vh, 
+        1.5vh 2.8vh,
+        0.8vh 2.8vh,
+        0.8vh 2.3vh,
+        3.8vh 0.5vh,
+        4.5vh 0.5vh,
+        4.6vh 1vh,
+        3.9vh 1vh,
+        4.9vh 1.7vh,
+        6.7vh 0vh,
+
+        7.5vh 0vh,
+        4.9vh 2.4vh,
+        3.5vh 1.3vh,
+        2.3vh 2.1vh,
+        2.45vh 2.3vh, 
+        3.15vh 2.9vh, 
+        1.9vh 4vh, 
+        2.6vh 4.5vh,
+        0 7vh
+        );
+
+    height: 17vh;
+    width: 15vh;
+    z-index: 3;
+    top: 0vh;
+    left: 15vh;
+    background-color: var(--yellow);
+
+}
+
+.angolo2-12{
+    position: absolute;
+    clip-path: polygon(   
+        0 6.3vh, 
+        1.8vh 4.5vh,
+        1.1vh 4vh, 
+        2.3vh 2.9vh, 
+        1.5vh 2.3vh, 
+        1.5vh 2.8vh,
+        0.8vh 2.8vh,
+        0.8vh 2.3vh,
+        3.8vh 0.5vh,
+        4.5vh 0.5vh,
+        4.6vh 1vh,
+        3.9vh 1vh,
+        4.9vh 1.7vh,
+        6.7vh 0vh,
+
+        7.5vh 0vh,
+        4.9vh 2.4vh,
+        3.5vh 1.3vh,
+        2.3vh 2.1vh,
+        2.45vh 2.3vh, 
+        3.15vh 2.9vh, 
+        1.9vh 4vh, 
+        2.6vh 4.5vh,
+        0 7vh
+        );
+
+    height: 17vh;
+    width: 15vh;
+    z-index: 3;
+    top: 0vh;
+    left: 15vh;
+    background-color: var(--yellow);
+    transform: scaleY(-1);
+
+}
+
+.angolo2-13{
+    position: absolute;
+    clip-path: polygon(   
+        0 6.3vh, 
+        1.8vh 4.5vh,
+        1.1vh 4vh, 
+        2.3vh 2.9vh, 
+        1.5vh 2.3vh, 
+        1.5vh 2.8vh,
+        0.8vh 2.8vh,
+        0.8vh 2.3vh,
+        3.8vh 0.5vh,
+        4.5vh 0.5vh,
+        4.6vh 1vh,
+        3.9vh 1vh,
+        4.9vh 1.7vh,
+        6.7vh 0vh,
+
+        7.5vh 0vh,
+        4.9vh 2.4vh,
+        3.5vh 1.3vh,
+        2.3vh 2.1vh,
+        2.45vh 2.3vh, 
+        3.15vh 2.9vh, 
+        1.9vh 4vh, 
+        2.6vh 4.5vh,
+        0 7vh
+        );
+
+    height: 17vh;
+    width: 15vh;
+    z-index: 3;
+    top: 0vh;
+    left: 25vh;
+    background-color: var(--yellow);
+    transform: scaleX(-1) scaleY(-1);
+
+}
+
+.angolo2-14{
+    position: absolute;
+    clip-path: polygon(   
+        0 6.3vh, 
+        1.8vh 4.5vh,
+        1.1vh 4vh, 
+        2.3vh 2.9vh, 
+        1.5vh 2.3vh, 
+        1.5vh 2.8vh,
+        0.8vh 2.8vh,
+        0.8vh 2.3vh,
+        3.8vh 0.5vh,
+        4.5vh 0.5vh,
+        4.6vh 1vh,
+        3.9vh 1vh,
+        4.9vh 1.7vh,
+        6.7vh 0vh,
+
+        7.5vh 0vh,
+        4.9vh 2.4vh,
+        3.5vh 1.3vh,
+        2.3vh 2.1vh,
+        2.45vh 2.3vh, 
+        3.15vh 2.9vh, 
+        1.9vh 4vh, 
+        2.6vh 4.5vh,
+        0 7vh
+        );
+
+    height: 17vh;
+    width: 15vh;
+    z-index: 3;
+    top: 0vh;
+    left: 25vh;
+    background-color: var(--yellow);
+    transform: scaleX(-1);
+
+}
+
+.mezzo-triangolo {
+    width: 0;
+    height: 0;
+    border-top: 100px solid transparent; /* Lato superiore del triangolo */
+    border-right: 100px solid #f00; /* Lato destro del triangolo */
+     /* Ritaglia il quadrato per ottenere il mezzo triangolo */
+  }
+  
+#div2{
+    position: absolute;
+    top: 17vh;
+    left: 0;
+}
+
+#div3{
+    position: absolute;
+    top: 34vh;
+    left: 0;
+}
+
+#div4{
+    position: absolute;
+    top: 51vh;
+    left: 0;
+}
+#div5{
+    position: absolute;
+    top: 68vh;
+    left: 0;
+}
+
