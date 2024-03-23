@@ -4,4 +4,4 @@
 <img src="flag.png">
 
 <h2>Nota</h2>
-Si noti che le stelle e la mezzaluna sono fatte iteramente in css, tuttavia nella parte centrale della bandiera gli angoli (in giallo) sono fatti in css, ma i disegni interni sono dei file png
+Si noti che le stelle e la mezzaluna sono fatte iteramente in css, tuttavia nella parte centrale della bandiera, anche se gli angoli (in giallo) sono fatti in css, i disegni interni sono dei png
