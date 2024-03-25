@@ -40,16 +40,36 @@ img{
     
 }
  /*Triangolini*/
-/* .tr1{  
+
+.triangolo{
     position: absolute;
-    clip-path: polygon(3vh 0vh, 4vh 0vh, 3.5vh 0.5vh);
+    background-color: var(--yellow);
+    clip-path: polygon(4.74vh 0vh, 5.4vh 0vh, 4.71vh 0.41vh);
     height: 17vh;
     width: 15vh;
-    z-index: 1;
     top: 0vh;
+}
+
+.triangolo1{  
     left: 15vh;
-    background-color: var(--yellow);
-} */
+}
+
+.triangolo2{
+    left: 25vh;
+    transform: scaleX(-1);
+}
+
+.triangolo3{
+    left: 25vh;
+    transform: scaleX(-1) scaleY(-1);
+}
+
+.triangolo4{
+    left: 15vh;
+    transform: scaleY(-1);
+}
+
+
 
 .angolo1{
     position: absolute;
@@ -158,4 +178,5 @@ img{
     top: 68vh;
     left: 0;
 }
+
 
